@@ -1,12 +1,31 @@
-from flask import Flask, render_template
+print("Start")
+print("Buat kopi")
+print("Masak air dan nyalakan kompor")
+print("Siapkan gelas")
+print("Ambil gula satu sendok teh")
+print("Matikan kompor")
+print("Tuang dan aduk")
 
-app = Flask(__name__)
+# Pilih bubuk
+bubuk = "kopi"  # bisa diubah jadi "kopi","jahe", "teh", atau "susu"
 
-@app.route('/')
-def index():
-    return render_template('buatkopi2.html')
+if bubuk == "teh":
+    print("Ambil bubuk teh")
+elif bubuk == "jahe":
+    print("Ambil bubuk jahe")
+elif bubuk == "susu":
+    print("Ambil bubuk susu")
+elif bubuk == "kopi":
+    print("Ambil bubuk kopi")
 
-if __name__ == '__main__':
-    app.run(debug=True)
-# This code sets up a simple Flask web application that renders a template
-# called 'buatkopi2.html' when the root URL is accessed. The application runs
+# Pakai es atau tidak
+pakai_es = True
+if pakai_es:
+    print("Pakai es batu")
+else:
+    print("Tidak pakai es batu")
+
+print("Sajikan")
+
+print("Selesai")
+print("Terima kasih telah membuat kopi")
