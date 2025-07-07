@@ -1,1 +1,30 @@
 style.css
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f28d19;
+  color: #333;
+  margin: 40px;
+}
+
+h1 {
+  color: hsl(31, 100%, 24%);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ol {
+  background-color: #f2bc79;
+  padding: 20px;
+  border: 1px solid #543803;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+ul {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
